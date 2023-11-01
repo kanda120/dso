@@ -47,6 +47,16 @@ Procedure:
 docker installation
 open repository
 
+Docker pull
+Docker images
+Docker run "image name"
+Docker run -d "_"
+Docker ps 
+Docker ps -a 
+Docker stop  "Id"
+Docker start "Id"
+Docker
+
 Exp.7.Aim: To implement Application and code security testing using snyk.
 Theory: A variety of application security testing tools exist to assist teams with securing their
 software. Deciding which tool is right for you of course depends on the type of tests that
