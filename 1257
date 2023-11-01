@@ -1,0 +1,60 @@
+Exp.1.Aim: To implement Version control for different files/directories/Project using GIT
+Theory: Version control, also known as source control, is the practice of tracking and managing
+changes to software code. Version control systems are software tools that help software teams
+manage changes to source code over time. As development environments have accelerated,
+version control systems help software teams work faster and smarter. They are especially useful
+for DevOps teams since they help them to reduce development time and increase successful
+deployments.
+
+Procedure: 
+
+git init
+git config --global user.name "YOUR NAME"
+git config --global user.email "EMAIL-ID"
+git status
+git add file_name
+git commit -m "index"
+
+##Modify the file
+git status
+git branch branch_name
+git checkout  branch_name
+git log
+
+Exp.2.Aim: To implement Version control for different files/directories/Project using GIT and GITHUB
+Theory: GitHub is a web-based hosting service for Git repositories. It makes Git more user-
+friendly and also provides a platform for developers to share code with others. In addition,
+GitHub makes it easy for others to contribute to projects. It also has a robust API that allows
+developers to integrate GitHub into their own applications and workflows.
+
+Procedure:
+git clone https://github.com/learning-zone/java-basics
+git clone https://github.com/wadekar491/dso
+git clone https://github.com/wadekar491/dso123
+
+rr5iNKAa6@HVStG
+
+
+Exp.5.Aim: To use docker to run containers of different applications and operating Systems
+Theory: Docker is an open platform that both IT operations teams and Developer team
+use to build, ship and run their applications, giving them the agility, portability and
+control that each team requires across the software supply chain. A standard Docker
+container that packages up an application, with everything that the applications require to
+run. This standardization allows teams to containerize applications and run them in any
+environment, on any infrastructure and to be written in any language.
+
+Procedure: 
+docker installation
+open repository
+
+Exp.7.Aim: To implement Application and code security testing using snyk.
+Theory: A variety of application security testing tools exist to assist teams with securing their
+software. Deciding which tool is right for you of course depends on the type of tests that
+need to be conducted. Snyk offers a set of solid application security solutions, including an open source
+vulnerability scanner, that helps to automatically find, prioritize and fix vulnerabilities in
+the open source dependencies throughout your development process.
+
+Procedure:
+snyk login with github
+cofigure
+open project
