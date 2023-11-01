@@ -47,6 +47,43 @@ Procedure:
 docker installation
 open repository
 
+---------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Web App</title>
+</head>
+<body>
+    <h1>Hello, Docker!</h1>
+</body>
+</html>
+--------
+# Use an official Nginx image as the base image
+FROM nginx:latest
+
+# Copy your HTML file into the Nginx web server's document root
+COPY index.html /usr/share/nginx/html
+
+# Expose port 80 for web traffic
+EXPOSE 80
+
+-------------------
+docker build -t simple-web-app .
+-------
+docker run -d -p 8080:80 simple-web-app
+-
+http://localhost:8080
+--
+docker pull redis
+docker image
+docker run redis
+docker run -d redis
+docker stop "id number"
+docker start "id number"
+
+
+--
+
 Docker pull
 Docker images
 Docker run "image name"
